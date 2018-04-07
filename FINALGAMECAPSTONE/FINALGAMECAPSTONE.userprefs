@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\coin.cs">
+    <Files>
+      <File FileName="Assets\SCRIPTS\LoadLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\SpikeMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\MAINMENU.cs" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\Score.cs" Line="7" Column="9" />
+      <File FileName="Assets\SCRIPTS\coin.cs" Line="6" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
