@@ -10,6 +10,10 @@ public class FallingBlocks : MonoBehaviour {
 	void Start () {
 		isPass = false;
 	}
+
+	void OnTriggerEnter2D (Collider2D other){
+		DeathsScript.deaths++;
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,5 +24,6 @@ public class FallingBlocks : MonoBehaviour {
 		if(isPass)
 			transform.Translate (0, -speed * Time.deltaTime, 0);
 
+		Debug.Log (System.Environment.Version);
 	}
 }

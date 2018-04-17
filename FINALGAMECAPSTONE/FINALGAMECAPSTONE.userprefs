@@ -1,16 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\coin.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.WindowsWebPlayer" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\FallingBlocks.cs">
     <Files>
-      <File FileName="Assets\SCRIPTS\LoadLevel.cs" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\SpikeMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\MAINMENU.cs" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\Score.cs" Line="7" Column="9" />
-      <File FileName="Assets\SCRIPTS\coin.cs" Line="6" Column="1" />
+      <File FileName="Assets\SCRIPTS\BACKTOMAIN.cs" Line="2" Column="16" />
+      <File FileName="Assets\Standard Assets\2D\Scripts\Restarter.cs" Line="26" Column="60" />
+      <File FileName="Assets\SCRIPTS\FallingBlocks.cs" Line="27" Column="42" />
+      <File FileName="Assets\SCRIPTS\DeathsScript.cs" Line="13" Column="30" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Maimai\Downloads\GITHUBTOAH\GITHUBNAGAMETO\FINALGAMECAPSTONE\Assets\SCRIPTS\PlayerController.cs" line="28" column="1" />
+      <Breakpoint file="C:\Users\Maimai\Downloads\GITHUBTOAH\GITHUBNAGAMETO\FINALGAMECAPSTONE\Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" line="30" column="1" />
+      <Breakpoint file="C:\Users\Maimai\Downloads\GITHUBTOAH\GITHUBNAGAMETO\FINALGAMECAPSTONE\Assets\SCRIPTS\DeathsScript.cs" line="1" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

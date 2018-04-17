@@ -31,7 +31,7 @@ public class GAMECONTROLLER : MonoBehaviour {
 
 	public GameObject Story13;
 
-	public GameObject Story14;
+
 
 	public GameObject Story15;
 
@@ -47,7 +47,7 @@ public class GAMECONTROLLER : MonoBehaviour {
 	}
 
 	public void SkipButton(){
-		SceneManager.LoadScene ("level1.");
+		SceneManager.LoadScene ("level1");
 	}
 
 		public void NextStory () {
@@ -152,21 +152,18 @@ public class GAMECONTROLLER : MonoBehaviour {
 	}
 	public void NextStory13 (){
 		Story13.SetActive (false);
-		Story14.SetActive (true);
+		Story15.SetActive (true);
 	}
 
 	public void PreviousStory13 (){
 		Story12.SetActive (true);
 		Story13.SetActive (false);
 	}
-	public void NextStory14 (){
-		Story14.SetActive (false);
-		Story15.SetActive (true);
-	}
+		
 
 	public void PreviousStory14 (){
 		Story13.SetActive (true);
-		Story14.SetActive (false);
+		Story15.SetActive (false);
 	}
 	public void NextStory15 (){
 		Story15.SetActive (false);
@@ -174,7 +171,7 @@ public class GAMECONTROLLER : MonoBehaviour {
 	}
 
 	public void PreviousStory15 (){
-		Story14.SetActive (true);
+		Story13.SetActive (true);
 		Story15.SetActive (false);
 	}
 	public void NextStory16 (){

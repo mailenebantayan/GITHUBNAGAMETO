@@ -7,6 +7,8 @@ public class BACKTOMAIN : MonoBehaviour {
 	
 	public void BackToMain () {
 	SceneManager.LoadScene ("START MENU");
+		Score.diamonds = 0;
+		DeathsScript.deaths = 0;
 }
-
-}
+	}
+ 

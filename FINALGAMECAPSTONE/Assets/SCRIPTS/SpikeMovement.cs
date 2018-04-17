@@ -13,6 +13,9 @@ public class SpikeMovement : MonoBehaviour {
 		yPositionMax = transform.position.y + .2;
 	}
 
+	void OnTriggerEnter2D (Collider2D other){
+		DeathsScript.deaths++;
+	}
 	// Update is called once per frame
 	void Update () {
 
